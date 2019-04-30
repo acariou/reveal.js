@@ -6,12 +6,13 @@
 
 		<title>reveal.js</title>
 
+		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
 		<!-- <link rel="stylesheet" href="css/theme/league.css"> -->
 		<link rel="stylesheet" href="css/theme/nexworld.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="lib/css/monokai.css">
 
 
 		<!-- Printing and PDF exports -->
@@ -41,7 +42,6 @@
 			</div>
 		</div>
 
-		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 
 		<script>
@@ -53,7 +53,7 @@
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/highlight/highlight.js', async: true }
 				]
 			});
 		</script>
